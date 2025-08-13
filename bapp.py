@@ -9,8 +9,7 @@ import pandas as pd
 import joblib
 import matplotlib.pyplot as plt
 
-# --- Load Model ---
-model = joblib.load('InsuranceLearning.pkl')
+
 
 # --- Page Config ---
 st.set_page_config(page_title="Insurance Charges Predictor", layout="wide")
